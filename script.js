@@ -1,6 +1,6 @@
 var mymap = L.map('mapid').setView([37.7,-122.4], 10);
 
-L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'Map tiles by Stamen Design, under CC BY 3.0.',
     maxZoom: 18
 }).addTo(mymap);
